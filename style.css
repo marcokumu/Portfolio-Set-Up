@@ -4,61 +4,52 @@ h1 {
   height: 124px;
   left: 24px;
   top: 120px;
-
   font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
-
   letter-spacing: 0.37px;
-
   color: #ff6b00;
-
   height: 124px;
   width: 327px;
   left: 24px;
   top: 120px;
   border-radius: nullpx;
 }
+
 h2 {
   position: static;
   width: 327px;
   height: 27px;
   left: 24px;
   top: 256px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-
   display: flex;
   align-items: center;
-
   color: #fff5e1;
-
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
+
 .nav {
   height: 92px;
   width: 375px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
-
+  left: 0;
+  top: 0;
+  border-radius: 0;
   position: absolute;
   width: 375px;
   height: 92px;
-  left: 0px;
-  top: 0px;
-
+  left: 0;
+  top: 0;
   display: flex;
-
   background: #3c3a39;
 }
 
@@ -67,35 +58,32 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0px;
+  left: 0;
   top: 92px;
-
   background: #1c1a19;
 }
+
 p {
   position: static;
   width: 327px;
   height: 123px;
   left: 24px;
   top: 295px;
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  color: #ffffff;
-
+  color: #fff;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 0;
 }
+
 .okumu {
   font-family: "Roboto";
   font-style: normal;
@@ -105,21 +93,25 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 0px;
-  color: #ffffff;
+  margin: 0 0;
+  color: #fff;
 }
+
 .fa.fa-bars {
   color: #f3efe7;
   position: absolute;
   top: 55px;
   right: 35px;
 }
+
 .fa.fa-bars:hover {
   color: #ff6b00;
 }
+
 .socials {
   color: #f3efe7;
 }
+
 .socials:hover {
   color: #ff6b00;
 }
@@ -127,8 +119,9 @@ p {
 .okumu {
   position: absolute;
   top: 55px;
-  left: 0px;
+  left: 0;
 }
+
 .okumu:hover {
   color: #ff6b00;
 }
