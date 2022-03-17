@@ -4,18 +4,12 @@ h1 {
   height: 124px;
   left: 24px;
   top: 120px;
-  font-family: "Crete Round";
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  height: 124px;
-  width: 327px;
-  left: 24px;
-  top: 120px;
-  border-radius: nullpx;
 }
 
 h2 {
@@ -24,7 +18,6 @@ h2 {
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -40,15 +33,10 @@ h2 {
 
 .nav {
   height: 92px;
-  width: 375px;
   left: 0;
   top: 0;
-  border-radius: 0;
   position: absolute;
   width: 375px;
-  height: 92px;
-  left: 0;
-  top: 0;
   display: flex;
   background: #3c3a39;
 }
@@ -61,8 +49,6 @@ body {
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0;
-  top: 92px;
   background: #1c1a19;
 }
 
@@ -72,7 +58,6 @@ p {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -85,7 +70,6 @@ p {
 }
 
 .okumu {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -95,6 +79,10 @@ p {
   flex-grow: 0;
   margin: 0 0;
   color: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: 55px;
+  left: 30px;
 }
 
 .fa.fa-bars {
@@ -114,12 +102,6 @@ p {
 
 .socials:hover {
   color: #ff6b00;
-}
-
-.okumu {
-  position: absolute;
-  top: 55px;
-  left: 0;
 }
 
 .okumu:hover {
