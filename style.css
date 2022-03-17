@@ -3,7 +3,7 @@ h1 {
   width: 327px;
   height: 124px;
   left: 24px;
-  top: 120px;
+  top: 90px;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -32,12 +32,12 @@ h2 {
 }
 
 .nav {
-  height: 92px;
-  left: 0px;
-  top: 0px;
+  height: 47px;
+  left: 1px;
+  top: 1px;
   position: absolute;
   width: 375px;
-  display: flex;
+
   background: #3c3a39;
 }
 
@@ -82,14 +82,14 @@ p {
   color: #fff;
   text-decoration: none;
   position: absolute;
-  top: 55px;
+  top: 20px;
   left: 30px;
 }
 
 .fa.fa-bars {
   color: #f3efe7;
   position: absolute;
-  top: 55px;
+  top: 20px;
   right: 35px;
 }
 
@@ -99,7 +99,9 @@ p {
 
 .socials {
   color: #d4d1ca;
-  display: flex;
+  display: -webkit-flex;
+  list-style-type: none;
+  justify-content: space-evenly;
 }
 
 /* .socials:hover {
